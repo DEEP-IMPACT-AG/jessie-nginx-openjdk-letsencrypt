@@ -6,4 +6,4 @@ if [ -f /app/init.sh ]; then
 	/app/init.sh
 fi
 
-/usr/bin/supervisord --configuration /etc/supervisord.conf
+exec /usr/bin/supervisord --configuration /etc/supervisord.conf
