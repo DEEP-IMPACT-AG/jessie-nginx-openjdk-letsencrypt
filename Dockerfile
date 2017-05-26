@@ -1,4 +1,4 @@
-FROM openjdk:8u121-jre
+FROM openjdk:8u131-jre
 
 ADD run.sh /app/run.sh
 ADD supervisord.conf /etc/supervisord.conf
