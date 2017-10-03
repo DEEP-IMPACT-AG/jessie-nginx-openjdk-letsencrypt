@@ -8,7 +8,7 @@ RUN echo "deb http://packages.dotdeb.org jessie all" >>/etc/apt/sources.list \
  && curl https://www.dotdeb.org/dotdeb.gpg > /tmp/dotdeb.gpg \
  && apt-key add /tmp/dotdeb.gpg \
  && apt-get update \
- && apt-get install -y nginx supervisor \
+ && apt-get install -y nginx-extras supervisor \
  && apt-get install -y python-certbot-apache -t jessie-backports \
  && rm -rf /var/lib/apt/lists/* /tmp/* \
  && rm /etc/nginx/sites-enabled/default
