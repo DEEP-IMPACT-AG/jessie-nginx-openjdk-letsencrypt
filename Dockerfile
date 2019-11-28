@@ -1,4 +1,4 @@
-FROM openjdk:8u212-jre-slim-stretch
+FROM openjdk:8u181-jre-slim-stretch
 
 ADD run.sh /app/run.sh
 ADD supervisord.conf /etc/supervisord.conf
