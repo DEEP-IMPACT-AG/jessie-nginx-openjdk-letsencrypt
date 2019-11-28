@@ -1,4 +1,4 @@
-FROM openjdk:8u232-jre-slim-buster
+FROM openjdk:8u222-jre-slim-buster
 
 ADD run.sh /app/run.sh
 ADD supervisord.conf /etc/supervisord.conf
